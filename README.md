@@ -2,7 +2,6 @@
 
 This is a personal note-taking system built for long-term thinking and local-first control. Notes are stored as `.md` files on disk, interconnected with `[[WikiLinks]]`, and indexed for full-text search. The system is designed to be self-hosted and eventually sync across your own devices.
 
-The editor is WYSIWYG (what-you-see-is-what-you-write), not a split preview/toggle interface — aiming to feel like Obsidian but with your own local control.
 
 ---
 
