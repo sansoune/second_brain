@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "bun build src/index.ts --outdir dist --target node",
+    "start": "bun run src/index.js"
+  },
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "gray-matter": "^4.0.3",
+    "hono": "^4.8.2",
+    "uuid": "^11.1.0"
+  }
+}

@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  #root {
+    @apply h-full;
+  }
+
+  html, body {
+    @apply h-full;
+    @apply select-none;
+    @apply bg-transparent;
+    @apply font-mono antialiased text-white;
+    @apply overflow-hidden
+  }
+}
+
+.wiki-link-exists {
+  color: #3b82f6;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.wiki-link-missing {
+  color: #ef4444;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

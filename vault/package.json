@@ -1,0 +1,50 @@
+{
+  "name": "vault",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@lexical/link": "^0.32.1",
+    "@lexical/utils": "^0.32.1",
+    "@mdxeditor/editor": "^3.37.0",
+    "@milkdown/core": "^7.14.0",
+    "@milkdown/kit": "^7.14.0",
+    "@milkdown/preset-gfm": "^7.14.0",
+    "@milkdown/react": "^7.14.0",
+    "@milkdown/theme-nord": "^7.14.0",
+    "@portaljs/remark-wiki-link": "^1.2.0",
+    "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.1.10",
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-opener": "^2",
+    "@types/markdown-it": "^14.1.2",
+    "axios": "^1.10.0",
+    "d3": "^7.9.0",
+    "jotai": "^2.12.5",
+    "lexical": "^0.32.1",
+    "markdown-it": "^14.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1",
+    "shadcn-react": "^0.0.22",
+    "tailwindcss": "^4.1.11"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2",
+    "@types/d3": "^7.4.3",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "typescript": "~5.6.2",
+    "vite": "^6.0.3"
+  }
+}
